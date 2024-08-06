@@ -3,12 +3,12 @@ import { Paper, Typography, Table, TableBody, TableCell, TableContainer, TableHe
 
 const RecentOrders = () => {
   const orders = [
-    { customer: "Wade Warren", image: "/frn22.jpg", orderNo: "15478256", amount: "$124.00", status: "Delivered" },
-    { customer: "Bessie Cooper", image: "/frn11.jpg", orderNo: "15478257", amount: "$89.99", status: "Cancelled" },
-    { customer: "Marvin McKinney", image: "/frn22.jpg", orderNo: "15478258", amount: "$59.50", status: "Delivered" },
-    { customer: "Kathryn Murphy", image: "/frn55.jpg", orderNo: "15478259", amount: "$199.00", status: "Delivered" },
-    { customer: "Theresa Webb", image: "/frn22.jpg", orderNo: "15478260", amount: "$75.25", status: "Cancelled" },
-    { customer: "Savannah Nguyen", image: "/frn11.jpg", orderNo: "78514568", amount: "$128.25", status: "Delivered" }
+    { customer: "Wade Warren", image: `${process.env.PUBLIC_URL}/frn22.jpg`, orderNo: "15478256", amount: "$124.00", status: "Delivered" },
+    { customer: "Bessie Cooper", image: `${process.env.PUBLIC_URL}/frn11.jpg`, orderNo: "15478257", amount: "$89.99", status: "Cancelled" },
+    { customer: "Marvin McKinney", image: `${process.env.PUBLIC_URL}/frn22.jpg`, orderNo: "15478258", amount: "$59.50", status: "Delivered" },
+    { customer: "Kathryn Murphy", image: `${process.env.PUBLIC_URL}/frn55.jpg`, orderNo: "15478259", amount: "$199.00", status: "Delivered" },
+    { customer: "Theresa Webb", image: `${process.env.PUBLIC_URL}/frn22.jpg`, orderNo: "15478260", amount: "$75.25", status: "Cancelled" },
+    { customer: "Savannah Nguyen", image: `${process.env.PUBLIC_URL}/frn11.jpg`, orderNo: "78514568", amount: "$128.25", status: "Delivered" }
   ];
 
   return (

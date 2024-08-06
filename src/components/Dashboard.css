@@ -31,4 +31,12 @@
     flex-direction: column;
     justify-content: space-between;
   }
+  .css-zxdg2z {
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    padding: 24px;
+    background-color: #141625;
+}
   
