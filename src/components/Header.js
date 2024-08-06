@@ -17,7 +17,7 @@ const Header = () => {
       <Box sx={{ display: "flex", alignItems: "center" }}>
         <MailIcon sx={{ color: "#858585", mr: 2 }} />
         <NotificationsIcon sx={{ color: "#858585", mr: 2 }} />
-        <Avatar alt="User Avatar" src="/static/images/avatar/1.jpg" />
+        <Avatar alt="User Avatar" src="frn11.jpg" />
       </Box>
     </Box>
   );
