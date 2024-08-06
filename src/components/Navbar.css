@@ -1,0 +1,14 @@
+
+  .navbar .MuiAppBar-root {
+    background-color: #f44336 !important;
+  }
+  .navbar .MuiToolbar-root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar .MuiTypography-root {
+    flex-grow: 1;
+  }
+  

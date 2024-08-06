@@ -1,0 +1,34 @@
+.dashboard .paper {
+    padding: 16px;
+    background-color: #212946;
+    
+  }
+  
+  .dashboard .activity {
+    margin-top: 8px;
+  }
+  
+  .dashboard .activity-item {
+    margin-bottom: 8px;
+  }
+  
+  .dashboard .progress-bar {
+    height: 10px;
+  }
+  
+  .dashboard .recent-orders,
+  .dashboard .customer-feedback {
+    margin-top: 16px;
+  }
+  
+  .dashboard .MuiAvatar-root {
+    margin-right: 16px;
+  }
+  /* Custom CSS for ensuring consistent height */
+.statisticCard, .netProfit {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
